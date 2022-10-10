@@ -389,6 +389,8 @@ textarea{
         justify-content: space-around;
         padding-left: 15px;
     }
+    nav .right a{
+        display: block;
 
     #menu{
         display: block;
