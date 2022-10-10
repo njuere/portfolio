@@ -1,0 +1,476 @@
+/* defaults */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+::-webkit-scrollbar{
+    width: 5px;
+
+}
+::-webkit-scrollbar-track{
+    background: silver;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(149, 200, 245);
+}
+::-webkit-scrollbar-thumb:hover{
+    background: rgb(20, 112, 162);
+}
+
+/* landing page */
+header{
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(253, 251, 251);
+}
+.navbar{
+    width: 100%;
+    background-color: aliceblue;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+}
+
+nav{
+    width: 80%;
+    margin: auto;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+nav h2{
+    color: #3b97ed;
+    /* font-family: 'Lobster', cursive; */
+    font-family: 'Pacifico', cursive;
+    text-decoration: none;
+}
+nav a {
+    text-decoration: none;
+}
+nav .right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+nav .right a{
+    text-decoration: none;
+    color: black;
+}
+#work{
+    border-radius: 7px;
+    padding: 9px 9px;
+    border-color: #3b97ed;
+    background-color: #3b97ed;
+    color: rgb(253, 251, 251);
+    text-decoration: none;
+}
+#work:hover{
+    background-color: #183ab5;
+}
+#menu,
+#close{
+    display: none;
+}
+.first-page{
+    width: 80%;
+    margin: auto;
+}
+.landing-page{
+    display: flex;
+    justify-content: space-between;
+
+}
+.firstt{
+    width: 40%;                                                       
+    margin-top: 250px;
+}
+.firstt h5{
+    font-weight: 400;
+}
+.second{
+    width: 60%;
+}
+.cont{
+    width: 100%;
+}
+img{
+    width: 100%;
+    height: 60vh;
+    margin-top: 100px;
+}
+
+/* about me */
+.about{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+    height: 100vh; 
+    background-color: aliceblue;   
+}
+.about-me{
+    padding-top: 50px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    gap: 30px;
+}
+.about-me .left{
+    width: 40%;
+}
+.about-me .right{
+    width: 60%;
+    margin-top: 100px;
+}
+.first-text h1{
+    padding: 5px;
+}
+.about-me .left .image{
+    width: 100%;
+}
+.about-me .left img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.about-text p{
+    font-size: 20px;
+}
+
+/* services */
+.services{
+    width: 100%;
+    background-color: rgb(253, 251, 251);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.content{
+    width: 80%;
+    margin: auto;
+}
+.content h1{
+    text-align: center;
+    padding-top: 25px;
+    padding: 20px;
+}
+.content>p{
+    text-align: center;
+    padding: 5px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+.box-image{
+    display: block;
+}
+.box-1{
+    width: 50%;
+    padding: 20px;
+}
+.box-2{
+    width: 50%;
+    margin-left: 500px;
+    padding: 20px;
+}
+.img{
+    width: 90%;
+    margin: auto;
+}
+.img img{
+    border-radius: 7px;
+}
+.content .text{
+    width: 85%;
+    margin: auto;
+    background-color: aliceblue;
+    margin-top: -50px;
+    z-index: 5;
+    position: relative;
+    padding: 30px;
+    border-radius: 12px;
+    left: 25px;
+}
+
+/* projects */
+.projects{
+    width: 100%;
+    height: 100vh;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: aliceblue;
+}
+.proj{
+    width: 80%;
+    margin: auto;
+}
+.proj h1{
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 30px;
+}
+.proj .contents{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between; 
+    margin: auto;
+}
+.proj .contents a{
+    text-decoration: none;
+}
+.proj1,
+.proj2,
+.proj3{
+    background-color: rgb(253, 251, 251);
+    border-radius: 15px;
+    border-color: rgb(253, 251, 251);
+    padding: 20px;
+    margin: auto;
+    width: 90%;
+    height: 75vh;
+    align-items: center;
+    box-sizing: border-box;
+}
+.pro:hover,
+.pro:hover,
+.pro:hover{
+    padding-top: 10px;
+    background-color: #3b97ed;
+    border-radius: 20px;
+}
+.proj1 .img1,
+.proj2 .img2,
+.proj3 .img3{
+    width: 80%;
+    margin: auto;
+}
+.proj1 .img1 img,
+.proj2 .img2 img,
+.proj3 .img3 img{
+    width: 100%;
+    margin: 0px;
+    height: 30vh;
+}
+.proj1 .texxt1,
+.proj2 .texxt2,
+.proj3 .texxt3{
+    width: 80%;
+    margin: auto;
+}
+.proj1 .texxt1 h2,
+.proj2 .texxt2 h2,
+.proj3 .texxt3 h2{
+    font-size: 20px;
+    color: black;
+    padding: 5px;
+}
+.proj1 .texxt1 p,
+.proj2 .texxt2 p,
+.proj3 .texxt3 p{
+    color: rgb(66, 66, 66);
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+}
+
+/* contact */
+.contact{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(253, 251, 251);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.contact-me{
+    width: 80%;
+    margin: auto;
+}
+.contact-me h1{
+    text-align: center;
+    padding: 20px;
+}
+.fields{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    box-shadow: 0px 2px 15px rgb(0 0 0 /5% );
+    background-color: aliceblue;
+    display: flex;
+}
+.form{
+    padding: 30px; 
+}
+.namail{
+    width: 60%;
+    padding: 5px;
+    border-radius: 9px;
+    border-color: transparent;
+}
+textarea{
+    padding: 5px;
+    border-radius: 9px;
+    border-color: transparent;
+}
+
+.submit{
+    width: 10%;
+    border-radius: 7px;
+    padding: 8px;
+    border-color: #3b97ed;
+    background-color: #3b97ed;
+    color: rgb(253, 251, 251);
+    position: absolute;
+    left: 390px;
+}
+.socials{
+    padding: 30px;
+    margin-top: 80px;
+    text-align: center;
+}
+.socials h3{
+    padding: 10px;
+}
+.socials a i{
+    width: 75px;
+    color: black;
+}
+#fb{
+    color: #3b5998;
+}
+#lk{
+    color: #0072b1;
+}
+#tw{
+    color: #3b97ed ;
+}
+
+/* tablet */
+@media only screen and (max-width:1000px){
+    .box-2{
+        margin-left: 350px;
+    }
+    .fields{
+        flex-direction: column;
+    }
+    textarea{
+        width: 90%;
+    }
+    .submit{
+        left: 350px;
+    }
+    .socials img{
+        margin: 0px;
+    }
+}
+/* mobile */
+@media only screen and (max-width: 640px){
+    .navbar{
+        position: fixed;
+        top: 0;
+        z-index: 100;
+    }
+    nav .right{
+        
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin: 0;
+        left: 75px;
+        width: 80vw;
+        height: 100vh;
+        margin-top: 55px; 
+        background-color: white;
+        justify-content: space-around;
+        padding-left: 15px;
+    }
+
+    #menu{
+        display: block;
+    }
+    .first-page{
+        padding: 0;
+        width: 80%;
+    }
+    .firstt{
+        width: 80%;
+        margin: auto;
+        margin-top: 200px;
+    }
+    .firstt h1{
+        font-size: 22px;
+    }
+    .firstt h5{
+        font-size: 12px;
+    }
+    .second{
+        display: none;
+    }
+    /* about */
+    .about{
+        padding-top: 0px;
+        height: fit-content;
+    }
+    .about-me{
+        flex-direction: column;
+    }
+    .about-me .left,
+    .about-me .right{
+        width: 90%;
+        margin: 0px;
+    }
+    .about-text{
+        line-height: 1.2em;
+    }
+    .about-text h1{
+        font-size: 14px;
+    }
+    .about-text p{
+        font-size: 14px;
+    }
+    .about-me .left img{
+        margin: 0px;
+    }
+    /* services */
+    .box-1{
+        width: 100%;
+    }
+    .box-2{
+       margin-left: 0px;
+       width: 100%;
+    }
+    .content .text{
+        width: 100%;
+    }
+    /* projects */
+    .projects{
+        height: fit-content;
+    }
+   .proj .contents{
+    flex-direction: column;
+   }
+   .proj1 .texxt1 p,
+   .proj2 .texxt2 p,
+   .proj3 .texxt3 p{
+    font-size: 14px;
+   }
+    /*contact  */
+    .fields{
+        flex-direction: column;
+    }
+    textarea{
+        width: 90%;
+    }
+    .submit{
+        left: 70px;
+        width: 20%;
+    }
+    .socials img{
+        margin-top:0px;
+    }
+}
