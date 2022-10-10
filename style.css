@@ -394,6 +394,9 @@ textarea{
         padding: 25px;
         font-size: 18px;
      }
+    #work{
+        width: 60%;
+    }
     #menu{
         display: block;
     }
