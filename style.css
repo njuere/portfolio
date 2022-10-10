@@ -391,6 +391,7 @@ textarea{
     }
     nav .right a{
         display: block;
+        padding-top: 15px
      }
     #menu{
         display: block;
