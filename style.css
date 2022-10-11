@@ -282,7 +282,7 @@ img{
 /* contact */
 .contact{
     width: 100%;
-    height: 100vh;
+    height: fit content;
     background-color: rgb(253, 251, 251);
     padding-top: 30px;
     padding-bottom: 30px;
@@ -357,6 +357,7 @@ footer{
 }
 .foot{
    width:80%;
+   margin:auto;
    padding: 15px;
    text-align: center;
 }
