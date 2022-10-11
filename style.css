@@ -355,6 +355,11 @@ footer{
    padding-top: 30px;
    padding-bottom: 20px;
 }
+.foot{
+   width:80%;
+   padding: 15px;
+   text-align: center;
+}
 
 /* tablet */
 @media only screen and (max-width:1000px){
