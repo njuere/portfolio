@@ -348,6 +348,11 @@ textarea{
 #tw{
     color: #3b97ed ;
 }
+footer{
+   text-align: center;
+   width: 100%;
+   background-color: aliceblue;
+}
 
 /* tablet */
 @media only screen and (max-width:1000px){
