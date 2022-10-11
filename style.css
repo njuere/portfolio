@@ -457,8 +457,10 @@ footer{
         font-size: 14px;
     }
     .about-me .left .image{
-        width:75%;
+        width:90%;
         margin: auto;
+        height: 80%;
+     }
     .about-me .left img{
         margin: auto;
         width: 100%;
