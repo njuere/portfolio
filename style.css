@@ -452,6 +452,7 @@ footer{
     }
     .about-text h1{
         font-size: 14px;
+        text-align: center;
     }
     .about-text p{
         font-size: 14px;
@@ -502,5 +503,8 @@ footer{
     }
     .socials img{
         margin-top:0px;
+    }
+    .foot p{
+    font-size:14px;
     }
 }
