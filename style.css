@@ -439,10 +439,13 @@ footer{
     .about-me{
         flex-direction: column;
     }
-    .about-me .left,
+    .about-me .left{
+        width: 90%;
+        margin: auto ;
+    }
     .about-me .right{
         width: 90%;
-        margin: 0px;
+        margin: auto ;
     }
     .about-text{
         line-height: 1.2em;
@@ -453,15 +456,20 @@ footer{
     .about-text p{
         font-size: 14px;
     }
+    .about-me .left .image{
+        width:75%;
+        margin: auto;
     .about-me .left img{
-        margin: 0px;
+        margin: auto;
+        width: 100%;
     }
     /* services */
     .box-1{
         width: 100%;
+         margin: auto;
     }
     .box-2{
-       margin-left: 0px;
+       margin: auto;
        width: 100%;
     }
     .content .text{
