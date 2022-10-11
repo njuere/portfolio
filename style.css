@@ -352,6 +352,8 @@ footer{
    text-align: center;
    width: 100%;
    background-color: aliceblue;
+   padding-top: 30px;
+   padding-bottom: 20px;
 }
 
 /* tablet */
