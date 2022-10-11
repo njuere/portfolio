@@ -352,13 +352,13 @@ footer{
    text-align: center;
    width: 100%;
    background-color: aliceblue;
-   padding-top: 30px;
-   padding-bottom: 20px;
+   padding-top: 10px;
+   padding-bottom: 10px;
 }
 .foot{
    width:80%;
    margin:auto;
-   padding: 15px;
+   padding: 10px;
    text-align: center;
 }
 
